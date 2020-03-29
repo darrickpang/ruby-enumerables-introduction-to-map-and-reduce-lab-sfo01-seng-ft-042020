@@ -23,11 +23,11 @@ def map_to_double(arr)
   return arr
 end 
 
-def map_to_square()
+def map_to_square(arr)
   x = 0 
-  newarr = []
+
   while x < arr.length do 
-    tot = arr[x]*num
+    arr[x]
     newarr.push(tot)
   end 
   return newarr
