@@ -7,12 +7,10 @@ def map_to_negativize(arr)
   return arr
 end 
 
-def map_to_no_change(arr, num)
+def map_to_no_change(arr)
   x = 0 
-  newarr = []
   while x < arr.length do 
-    arr[x] = arr[x]+num
-    newarr.push(tot)
+    arr[x] *= 2
   end 
   return arr
 end 
