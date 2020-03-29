@@ -32,5 +32,5 @@ def map_to_square(arr)
     arr[x] = arr[x]**2
     x += 1
   end 
-  return newarr
+  return arr
 end 
