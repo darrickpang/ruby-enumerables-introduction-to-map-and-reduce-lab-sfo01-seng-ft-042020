@@ -15,7 +15,7 @@ def map_to_no_change(arr)
   return arr
 end 
 
-def map_to_double(arr, num)
+def map_to_double(arr)
   x = 0 
   while x < arr.length do 
     arr[x]*= 2
