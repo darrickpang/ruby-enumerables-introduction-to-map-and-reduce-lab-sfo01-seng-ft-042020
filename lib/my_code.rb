@@ -12,10 +12,10 @@ def map_to_no_change(arr, num)
   x = 0 
   newarr = []
   while x < arr.length do 
-    tot = arr[x]+num
+    arr[x] = arr[x]+num
     newarr.push(tot)
   end 
-  return newarr
+  return arr
 end 
 
 def map_to_double(arr, num)
