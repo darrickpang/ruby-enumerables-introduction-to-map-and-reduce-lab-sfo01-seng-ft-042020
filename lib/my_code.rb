@@ -3,6 +3,7 @@ def map_to_negativize(arr)
 
   while x < arr.length do 
     arr[x] *=-1
+    x +=1
   end 
   return arr
 end 
@@ -27,8 +28,7 @@ def map_to_square(arr)
   x = 0 
 
   while x < arr.length do 
-    arr[x]
-    newarr.push(tot)
+    arr[x] *= arr[x]
   end 
   return newarr
 end 
