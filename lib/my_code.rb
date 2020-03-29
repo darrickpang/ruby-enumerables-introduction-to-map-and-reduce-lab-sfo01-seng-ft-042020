@@ -10,19 +10,17 @@ end
 def map_to_no_change(arr)
   x = 0 
   while x < arr.length do 
-    arr[x] *= 2
+    arr[x] = arr[x]
   end 
   return arr
 end 
 
 def map_to_double(arr, num)
   x = 0 
-  newarr = []
   while x < arr.length do 
-    tot = arr[x]*num
-    newarr.push(tot)
+    arr[x]*= 2
   end 
-  return newarr
+  return arr
 end 
 
 def map_to_square()
