@@ -10,6 +10,7 @@ end
 
 def map_to_no_change(arr, num)
   x = 0 
+  num = -1
   newarr = []
   while x < arr.length do 
     tot = arr[x]+num
