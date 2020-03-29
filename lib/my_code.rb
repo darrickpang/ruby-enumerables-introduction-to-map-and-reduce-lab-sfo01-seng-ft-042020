@@ -29,7 +29,7 @@ end
 def map_to_square(arr)
   x = 0 
   while x < arr.length do 
-    arr[x] *= arr[x]
+    arr[x] = arr[x]**2
     x += 1
   end 
   return newarr
