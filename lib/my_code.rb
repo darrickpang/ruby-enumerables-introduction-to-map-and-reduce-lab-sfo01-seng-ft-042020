@@ -1,8 +1,8 @@
-def map_to_negativize(arr, negativize)
+def map_to_negativize(arr)
   x = 0 
   newarr = []
   while x < arr.length do 
-    tot = arr[x]*negativize
+    arr[x] *=-1
     newarr.push(tot)
   end 
   return newarr
