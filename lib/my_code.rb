@@ -47,12 +47,10 @@ end
 def reduce_to_all_true(arr)
   x = 0 
   while x < arr.length do 
-    if(arr[x]==true)
-      return true 
-    else 
+    if(arr[x]==false)
       return false
     end 
     x += 1
   end 
-  return arr
+  return true 
 end 
