@@ -45,5 +45,14 @@ def reduce_to_total(arr, start=0)
 end 
 
 def reduce_to_all_true(arr)
-  
+  x = 0 
+  while x < arr.length do 
+    if(arr[x]==true)
+      return true 
+    else 
+      arr[x] = false
+    end 
+    x += 1
+  end 
+  return arr
 end 
