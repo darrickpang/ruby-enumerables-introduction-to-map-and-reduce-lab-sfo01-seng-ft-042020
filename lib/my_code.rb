@@ -50,7 +50,7 @@ def reduce_to_all_true(arr)
     if(arr[x]==true)
       return true 
     else 
-      arr[x] = false
+      return false
     end 
     x += 1
   end 
