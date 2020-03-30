@@ -43,3 +43,4 @@ def reduce_to_total(arr, start=0)
   end 
   return start
 end 
+
