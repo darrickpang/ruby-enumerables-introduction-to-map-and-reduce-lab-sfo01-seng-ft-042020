@@ -42,7 +42,7 @@ def reduce_to_total(arr, start)
     if(start !== nil)
       start = start + arr[x]
     else 
-      tot = tot + arr[x]
+      start = start + arr[x]
     end 
     x += 1
   end 
