@@ -38,7 +38,7 @@ end
 def reduce_to_total(arr, start)
   x = 0 
   while x < arr.length do 
-    if(start !== nil)
+    if(start !== 0)
       start = start + arr[x]
     else 
       start = start + arr[x]
