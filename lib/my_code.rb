@@ -58,10 +58,10 @@ end
 def reduce_to_any_true(arr)
   x = 0 
   while x < arr.length do 
-    if(arr[x]==false)
-      return false
+    if(arr[x]==true)
+      return true
     end 
     x += 1
   end 
-  return true 
+  return false 
 end 
