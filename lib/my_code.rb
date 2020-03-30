@@ -37,9 +37,10 @@ end
 
 def reduce_to_total(arr, start)
   x = 0 
+  tot = 0
   while x < arr.length do 
-    arr[x] = arr[x]**2
+    tot = tot + arr[x]
     x += 1
   end 
-  return arr
+  return tot
 end 
