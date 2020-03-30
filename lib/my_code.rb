@@ -42,5 +42,5 @@ def reduce_to_total(arr, start)
     start = start + arr[x]
     x += 1
   end 
-  return tot
+  return start
 end 
