@@ -55,3 +55,13 @@ def reduce_to_all_true(arr)
   return true 
 end 
 
+def reduce_to_any_true(arr)
+  x = 0 
+  while x < arr.length do 
+    if(arr[x]==false)
+      return false
+    end 
+    x += 1
+  end 
+  return true 
+end 
